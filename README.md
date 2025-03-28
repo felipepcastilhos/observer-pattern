@@ -57,9 +57,32 @@ A exibição dos dados foi feita via **console (System.out.println)**, o que ate
 1. Clone o repositório
    ```bash
    git clone https://github.com/seu-usuario/observer-pattern.git
+   cd observer-pattern
    ```
-2. Abra o projeto no VSCode
-3. Execute a classe `App.java` com 'mvn clean compile exec:java -Dexec.mainClass="br.edu.ucs.projetos.App"'
+2. Certifique-se de que você tem instalado:
+
+- Java JDK 17 ou superior
+- Apache Maven (mvn -v deve funcionar no terminal)
+- (Opcional) VSCode com a extensão "Extension Pack for Java"
+
+3. Abra o projeto no VSCode
+4. Execute a aplicação no terminal Use o seguinte comando no terminal dentro da raiz do projeto:
+   ```bash
+   mvn clean compile exec:java -Dexec.mainClass="br.edu.ucs.projetos.App"
+   ```
+
+## 💡 Observações:
+
+- Se o comando mvn não for reconhecido, instale o Maven com:
+
+  ```bash
+  sudo apt update
+  sudo apt install maven
+
+  ```
+
+- Certifique-se de estar executando o comando dentro da pasta correta (onde está o pom.xml).
+- A execução da aplicação será feita via terminal e os resultados aparecerão diretamente no console.
 
 ---
 
