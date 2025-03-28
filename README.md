@@ -59,7 +59,7 @@ A exibição dos dados foi feita via **console (System.out.println)**, o que ate
    git clone https://github.com/seu-usuario/observer-pattern.git
    ```
 2. Abra o projeto no VSCode
-3. Execute a classe `App.java`
+3. Execute a classe `App.java` com 'mvn clean compile exec:java -Dexec.mainClass="br.edu.ucs.projetos.App"'
 
 ---
 

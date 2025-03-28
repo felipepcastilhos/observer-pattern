@@ -1,0 +1,7 @@
+br/edu/ucs/projetos/observer/Observador.class
+br/edu/ucs/projetos/App.class
+br/edu/ucs/projetos/observer/DisplayEstatistico.class
+br/edu/ucs/projetos/observer/SujeitoObservavel.class
+br/edu/ucs/projetos/observer/EquipamentoDeMonitoramento.class
+br/edu/ucs/projetos/observer/DisplayDeCondicoesAtuais.class
+br/edu/ucs/projetos/observer/MonitorDeDadosDoClima.class
