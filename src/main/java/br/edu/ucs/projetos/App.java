@@ -22,7 +22,7 @@ public class App {
 
         // 5. Iniciar a coleta de dados
         try {
-            equipamento.coletar(); // isso simula os dados mudando 10 vezes
+            equipamento.coletar(); // simula os dados mudando 10 vezes
         } catch (InterruptedException e) {
             System.out.println("Erro na simulação de coleta: " + e.getMessage());
         }
